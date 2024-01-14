@@ -1,0 +1,9 @@
+Options Indexes FollowSymlinks
+AuthType Basic
+AuthName "Apache LDAP authentication"
+AuthBasicAuthoritative Off
+AuthBasicProvider ldap
+AuthLDAPURL "ldap://192.168.56.106/ou=users,dc=ldap,dc=com?uid?sub?(objectClass=*)"
+AuthLDAPBindDN "cn=user-auth,ou=users,dc=ldap,dc=com"
+AuthLDAPBindPassword wiem
+Require valid-user
