@@ -1,0 +1,36 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+zone "monprojet.com" IN {
+    type master;
+    file "/etc/bind/db.monprojet.com";
+
+};
+zone "1.168.192.in-addr.arpa" IN {
+    type master;
+    file "/etc/bind/db.1.168.192";
+};
+
+zone "monprojetvpn.com" IN {
+    type master;
+    file "/etc/bind/db.monprojetvpn.com";
+
+};
+zone "0.8.10.in-addr.arpa" IN {
+    type master;
+    file "/etc/bind/db.0.8.10";
+};
+zone "monprojetapache.com" IN {
+    type master;
+    file "/etc/bind/db.monprojetapache.com";
+
+};
+zone "1.0.127.in-addr.arpa" IN {
+    type master;
+    file "/etc/bind/db.1.0.127";
+};
+

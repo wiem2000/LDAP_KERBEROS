@@ -1,0 +1,14 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	ns.monprojetapache.com. root.monprojetapache.com. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.monprojetapache.com.
+1	IN	PTR	ns.monprojetapache.com.
+1	IN	PTR	apache.monprojetapache.com
