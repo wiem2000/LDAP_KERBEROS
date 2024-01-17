@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            6f:7c:1b:af:23:48:28:72:49:84:60:8a:b6:75:f1:5f
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=Easy-RSA CA
+        Validity
+            Not Before: Dec 17 16:25:43 2023 GMT
+            Not After : Mar 21 16:25:43 2026 GMT
+        Subject: CN=www.insat.tn
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d5:aa:ec:b5:d1:e9:ce:bd:09:7f:14:99:5a:3e:
+                    97:20:ac:89:03:6a:38:4b:fc:9e:28:b0:1c:96:3b:
+                    75:a7:f9:fe:98:ba:0b:b2:22:a8:b5:1a:06:6b:6e:
+                    5d:86:68:42:5e:c4:2b:e8:19:c6:47:a1:e3:16:da:
+                    9d:00:69:c2:1a:30:68:90:9f:af:86:24:ff:9e:a8:
+                    28:e4:9c:68:fd:c2:2e:df:90:c3:60:9f:3c:98:5c:
+                    b3:da:7e:73:09:ae:f0:d4:b7:cd:a9:64:98:9b:6a:
+                    4e:a9:af:18:3f:e1:d8:b3:7a:39:40:89:5f:a8:09:
+                    6c:a0:39:a2:40:31:ed:e1:b5:b4:1e:8e:f1:bf:a9:
+                    a1:10:5e:c7:45:d1:c8:b2:2b:01:d9:61:75:15:19:
+                    a0:c6:4a:78:76:b9:e0:65:93:81:42:0c:bd:aa:c3:
+                    48:21:11:ab:dc:ff:64:33:d6:09:a1:cb:c5:c6:2f:
+                    24:73:56:09:79:cb:f4:55:e8:c7:a1:ff:fb:1c:95:
+                    10:bb:7e:cc:8b:5b:9d:8c:8d:eb:ea:c2:ea:5f:78:
+                    6e:88:66:27:a8:d8:3d:a2:1c:4f:91:dc:e3:e7:7e:
+                    d1:28:71:49:ee:0f:bc:32:db:b7:2d:a6:83:e6:19:
+                    7f:2c:5b:e3:97:0d:f6:24:fe:1a:c5:f9:0d:76:1f:
+                    bb:a5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                3C:B0:A6:4D:CF:24:91:5E:97:56:B5:A9:05:BB:F9:78:4B:7B:4E:0E
+            X509v3 Authority Key Identifier: 
+                keyid:F3:5B:8D:4D:5D:C4:89:0A:5A:28:BC:3C:B6:E9:01:A2:9C:44:3E:33
+                DirName:/CN=Easy-RSA CA
+                serial:20:BA:68:53:43:B7:3D:90:C7:CE:65:A1:4B:17:5E:C4:CA:6E:0C:0F
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:www.insat.tn
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        93:2e:5b:2d:84:e2:88:ce:9c:ba:3e:7b:35:b5:79:bb:d5:49:
+        d5:d2:cf:4b:63:3a:23:a8:b5:59:25:b4:bb:d8:78:51:bd:47:
+        b1:51:03:aa:32:a4:53:02:28:1d:f7:51:3c:18:04:54:72:3a:
+        f3:72:a9:94:53:ac:1f:3c:0e:78:d0:39:b9:69:fc:8a:c5:3d:
+        8a:14:64:a9:c2:25:3c:7d:88:66:91:fd:8f:20:24:46:f5:90:
+        69:bd:58:f0:bf:7b:11:c7:8f:8e:0e:45:47:12:2c:10:db:c5:
+        d5:64:ca:f4:6c:08:2a:63:38:94:fd:a2:c3:44:e3:6a:e2:30:
+        01:ac:2f:c5:e7:a2:00:91:ef:35:33:31:6f:09:ab:f9:51:6b:
+        00:28:94:5a:2f:58:17:df:c6:c5:6c:21:f2:e9:d4:f2:34:c2:
+        a9:e6:c1:fc:41:8d:df:77:58:7b:7d:be:a2:a4:59:ab:41:6b:
+        b6:d3:70:62:ec:c5:05:d0:7b:40:04:67:a1:1c:c3:84:88:32:
+        f4:e2:a1:c5:28:31:92:0b:b7:fc:a7:05:93:b5:f3:91:43:00:
+        3f:3c:c7:1f:27:0f:dc:c3:b8:af:6e:dd:ba:f9:b5:63:4d:51:
+        21:32:c5:a3:3d:a3:4b:4b:b6:c2:34:1e:e6:3c:a2:c5:41:86:
+        b6:19:92:89
+-----BEGIN CERTIFICATE-----
+MIIDczCCAlugAwIBAgIQb3wbryNIKHJJhGCKtnXxXzANBgkqhkiG9w0BAQsFADAW
+MRQwEgYDVQQDDAtFYXN5LVJTQSBDQTAeFw0yMzEyMTcxNjI1NDNaFw0yNjAzMjEx
+NjI1NDNaMBcxFTATBgNVBAMMDHd3dy5pbnNhdC50bjCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBANWq7LXR6c69CX8UmVo+lyCsiQNqOEv8niiwHJY7daf5
+/pi6C7IiqLUaBmtuXYZoQl7EK+gZxkeh4xbanQBpwhowaJCfr4Yk/56oKOScaP3C
+Lt+Qw2CfPJhcs9p+cwmu8NS3zalkmJtqTqmvGD/h2LN6OUCJX6gJbKA5okAx7eG1
+tB6O8b+poRBex0XRyLIrAdlhdRUZoMZKeHa54GWTgUIMvarDSCERq9z/ZDPWCaHL
+xcYvJHNWCXnL9FXox6H/+xyVELt+zItbnYyN6+rC6l94bohmJ6jYPaIcT5Hc4+d+
+0ShxSe4PvDLbty2mg+YZfyxb45cN9iT+GsX5DXYfu6UCAwEAAaOBuzCBuDAJBgNV
+HRMEAjAAMB0GA1UdDgQWBBQ8sKZNzySRXpdWtakFu/l4S3tODjBRBgNVHSMESjBI
+gBTzW41NXcSJCloovDy26QGinEQ+M6EapBgwFjEUMBIGA1UEAwwLRWFzeS1SU0Eg
+Q0GCFCC6aFNDtz2Qx85loUsXXsTKbgwPMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsG
+A1UdDwQEAwIFoDAXBgNVHREEEDAOggx3d3cuaW5zYXQudG4wDQYJKoZIhvcNAQEL
+BQADggEBAJMuWy2E4ojOnLo+ezW1ebvVSdXSz0tjOiOotVkltLvYeFG9R7FRA6oy
+pFMCKB33UTwYBFRyOvNyqZRTrB88DnjQOblp/IrFPYoUZKnCJTx9iGaR/Y8gJEb1
+kGm9WPC/exHHj44ORUcSLBDbxdVkyvRsCCpjOJT9osNE42riMAGsL8XnogCR7zUz
+MW8Jq/lRawAolFovWBffxsVsIfLp1PI0wqnmwfxBjd93WHt9vqKkWatBa7bTcGLs
+xQXQe0AEZ6Ecw4SIMvTiocUoMZILt/ynBZO185FDAD88xx8nD9zDuK9u3br5tWNN
+USEyxaM9o0tLtsI0HuY8osVBhrYZkok=
+-----END CERTIFICATE-----

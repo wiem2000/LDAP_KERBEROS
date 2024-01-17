@@ -1,0 +1,70 @@
+# Ajout de l'unité organisationnelle pour les utilisateurs
+dn: ou=users,dc=ldap,dc=com
+objectClass: organizationalUnit
+ou: users
+
+# Ajout de l'unité organisationnelle pour les groupes
+dn: ou=groups,dc=ldap,dc=com
+objectClass: organizationalUnit
+ou: groups
+
+# Ajout du groupe gl4_grp1
+dn: cn=gl4_grp1,ou=groups,dc=ldap,dc=com
+objectClass: top
+objectClass: posixGroup
+cn: gl4_grp1
+gidNumber: 1001
+
+
+# Ajout du groupe gl4_grp2
+dn: cn=gl4_grp2,ou=groups,dc=ldap,dc=com
+objectClass: top
+objectClass: posixGroup
+cn: gl4_grp2
+gidNumber: 1002
+
+
+# Ajout de l'utilisateur eya.raouine
+dn: uid=eya.raouine,ou=users,dc=ldap,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+mail: eya@gmail.com
+sn:raouine
+cn: eya raouine
+uid: eya.raouine
+uidNumber : 1001
+gidNumber: 1001
+homeDirectory: /home/eya
+loginShell: /bin/bash
+gecos: eya
+shadowLastChange: 0
+shadowMax: 0
+shadowWarning: 0
+userPassword: {SHA}XFh/bTDVwpwM6kSZZsqhHENOVWs=
+
+
+# Ajout de l'utilisateur fatma.hamada
+dn: uid=fatma.hamada,ou=users,dc=ldap,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+mail: fatma@gmail.com
+sn:hamada
+cn: fatma hamada
+uid: fatma.hamada
+uidNumber : 1002
+gidNumber: 1002
+homeDirectory: /home/fatma
+loginShell: /bin/bash
+gecos: fatma
+shadowLastChange: 0
+shadowMax: 0
+shadowWarning: 0
+userPassword: {SHA}XpJ1A9MPUL1EyaMcZiWYTEQreK4=
